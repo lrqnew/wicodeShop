@@ -1,0 +1,95 @@
+.myheader,
+.myfooter {
+    width: 100%;
+}
+
+@media (min-width:992px) {
+    .myheader {
+        height: 5.5rem;
+    }
+
+    .myfooter {
+        height: 28rem;
+    }
+}
+
+@media (max-width:991px) and (min-width:576px) {
+    .myheader {
+        height: 11rem;
+    }
+
+    .myfooter {
+        height: 41rem;
+    }
+}
+@media (max-width:575px){
+    .myheader {
+        height: 11rem;
+    }
+
+    .myfooter {
+        height: 41rem;
+    }
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 4%;
+    height: 20%;
+    top: 40%;
+    background-color: #aaa;
+    border-radius: 0.25rem;
+}
+
+.carousel-indicators li {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-left: 6px;
+
+}
+.carousel-indicators .active{
+    background:#0aa1ed;
+   }      
+.floor1_top{
+    height: 377px;
+    background: #e8e8e8;
+} 
+.floor1_bottom_left,.floor1_bottom_right{
+    height: 235px;
+    background: #e8e8e8;
+}
+.desc{
+    width: 245px;
+    height: 243px;
+    float: left;
+}
+.desc>p:nth-child(1){
+    font-size: 32px;
+    color: #333;
+}
+.desc>p:nth-child(2){
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+.desc>p:nth-child(3){
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #0aa1ed;
+}
+.desc .view{
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    background: linear-gradient(to top,#27b1f6 0%,#0aa1ed 100%);
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+

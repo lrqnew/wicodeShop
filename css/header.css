@@ -1,0 +1,11 @@
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "|";
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+.breadcrumb{
+    margin-top: 0.25rem;
+}
+.breadcrumb a{
+    text-decoration: none;
+}
