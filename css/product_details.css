@@ -1,0 +1,51 @@
+.container .breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+
+.container .breadcrumb-item a {
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+}
+
+.my_img_w img {
+    width: 5rem;
+}
+
+.alert .h3 {
+    color: #0aa1ed;
+}
+
+.my_count .my_input_w {
+    width: 6%;
+}
+
+.my_count button {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.my_btn a{
+    display: inline-block;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 3.5rem;
+    border-radius: 0.25rem;
+  
+}
+.my_btn a:nth-child(1) {
+    
+    background: linear-gradient(to bottom, #f0f0f0 0%, #e0e0e0 100%);
+}
+.my_btn a:nth-child(2){
+    background: linear-gradient(to bottom, #27b0f6 0%, #0aa1ed 100%);
+    color: #fff;
+}
+.my_btn a:nth-child(3){
+    width: 6rem;
+    height: 3.5rem;
+    background: linear-gradient(to bottom, #27b0f6 0%, #0aa1ed 100%);
+    color: #fff;
+}
