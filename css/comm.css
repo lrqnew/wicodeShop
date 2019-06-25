@@ -13,4 +13,38 @@ body {
   font-size: 0.8rem; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none !important; 
+}
+  .myheader,
+  .myfooter {
+      width: 100%;
+  }
+  
+  @media (min-width:992px) {
+      .myheader {
+          height: 5.5rem;
+      }
+  
+      .myfooter {
+          height: 28rem;
+      }
+  }
+  
+  @media (max-width:991px) and (min-width:576px) {
+      .myheader {
+          height: 11rem;
+      }
+  
+      .myfooter {
+          height: 41rem;
+      }
+  }
+  @media (max-width:575px){
+      .myheader {
+          height: 11rem;
+      }
+  
+      .myfooter {
+          height: 41rem;
+      }
+  }

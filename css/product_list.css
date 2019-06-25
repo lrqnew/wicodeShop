@@ -1,0 +1,63 @@
+.container .title{
+    width: 100%;
+    height: 38px;
+    background: linear-gradient(to bottom,#f0f0f0 0%,#e0e0e0 100%);
+    line-height: 38px;
+    color: #808080;
+    font-size: 16px;
+    box-shadow: 3px 3px 6px #ccc;
+}
+.container .list{
+    width: 100%;
+    /* height: 1154px; */
+}
+.container .content{
+  width: 100%;
+}
+ .my_input_w{
+   width: 10%;
+   border: 0;
+   outline: 0;
+}
+.container .content p{
+    font: 12px "microsoft yahei";
+}
+.container .cart{
+    width: 100%;
+
+}
+.container .cart .title{
+   font-size: 14px;
+    
+}
+.container .cart .title span:nth-child(1){
+    float: left;
+}
+.container .cart .title span:nth-child(2){
+    float: right;
+}
+.container .cart .sarc .sarc_left{
+    width: 100%;
+    height: 46px;
+    background-color: #808080;
+}
+.container .cart .sarc .sarc_right{
+    width: 100%;
+    height: 46px;
+}
+.cart .sarc a{
+    display: block;
+    width: 100%;
+    height: 46px;
+    /* background: #808080; */
+    background:linear-gradient(to bottom, #27b1f6 0%, #0aa1ed 100%);
+    color: #fff;
+    line-height: 46px;
+}
+.cart .sarc .sarc_left{
+   line-height: 46px;
+   color: #fff;
+}
+.cart .sarc .sarc_left span{
+  font-size: 1.5rem;
+}
