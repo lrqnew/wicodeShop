@@ -11,14 +11,33 @@
     width: 100%;
     /* height: 1154px; */
 }
+
 .container .content{
   width: 100%;
 }
- .my_input_w{
-   width: 10%;
-   border: 0;
-   outline: 0;
+
+@media (min-width:992px){
+    .my_input_w{
+        width: 10%;
+        border: 0;
+        outline: 0;
+     }
 }
+@media (min-width:576px) and (max-width:991px){
+    .my_input_w{
+        width: 28%;
+        border: 0;
+        outline: 0;
+     }
+}
+@media(max-width:575px){
+    .my_input_w{
+        width: 5%;
+        border: 0;
+        outline: 0;
+     }
+}
+
 .container .content p{
     font: 12px "microsoft yahei";
 }
@@ -60,4 +79,14 @@
 }
 .cart .sarc .sarc_left span{
   font-size: 1.5rem;
+}
+
+    .title.page{
+        height: 50px;
+        font-size: 0.8rem;
+    }
+
+.pagination>li>a{
+    border-radius: 0.25rem;
+    margin-left: 0.25rem;
 }
